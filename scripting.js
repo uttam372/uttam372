@@ -54,7 +54,7 @@
      if (comparing())
      {
          setTimeout(() => {
-                 alert(`you win the game`);
+                 alert(`you win the game so you lost the match`);
                  resetGame();
              }, 300);
          return;
@@ -85,7 +85,7 @@
          {   
             
               setTimeout(() => {
-                 alert(`you lose the game`);
+                 alert(`you lose the game so you win the match`);
                  resetGame();
              }, 300);
              return;
